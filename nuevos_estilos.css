@@ -1,0 +1,40 @@
+/*Reglas basicas para comenzar*/
+body{
+    text-align: center;
+}
+#principal{
+    display: block;
+    width: 500px;
+    margin: 50px auto;
+    text-align: center;
+    border: 1px solid #999999;
+    background:#5DEAA8;
+   /* transform: translateY(100px) rotate(45deg) scale(0.3);*/
+    /*transform: skew(20deg);*/
+    /*transform: translate(100px);*/
+    /*transform: rotate(-20deg);*/
+    /*transform: scale(1,-1);*/
+   /* border-radius: 20px / 10px;
+    box-shadow: rgb(150,150,150) 5px 5px 10px 0px inset;
+    background: -webkit-linear-gradient(30deg,#468158 50%,#006699 90%);
+    background: -webkit-radial-gradient(center,circle,#FFFFFF 0%,#006699 200%);
+    border: 29px;
+    -webkit-border-image: url(Imagenes/diamante.jpg) 29 repeat;*/
+    transition: 2s ease 0.5s;
+}
+#principal:hover{
+    transform: rotate(5deg);
+}
+
+
+
+#titulo{
+    font:bold 36px verdana, sans-serif;
+    text-shadow: rgba(0, 0, 0, 0.5) 3px 3px 5px;
+    color:hsla(350,100%,50%,0.5)
+}
+@font-face {
+    font-family: 'MiNuevaFuente';
+    src: url('font.ttf');
+}
+7
